@@ -1,4 +1,5 @@
 # Ứng dụng Login cơ bản sử dụng Java Swing
+ứng dụng login cơ bản sử dụng kết nối MySQL qua JDBC + UI dựng bằng Java Swing.
 
 ## Requirements:
 - Cài đặt XAMPP: [XAMPP download]
