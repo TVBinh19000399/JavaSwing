@@ -5,7 +5,8 @@
 - Cài đặt Java: [Hướng dẫn cài đặt Java]
 
 ## Chạy chương trình:
-- Chạy XAMPP: ![image](https://user-images.githubusercontent.com/92351087/221732514-444a8757-0459-483b-b7ca-8522dbfd00b0.png)
+- Chạy XAMPP: 
+![image](https://user-images.githubusercontent.com/92351087/221732514-444a8757-0459-483b-b7ca-8522dbfd00b0.png)
 
 - Chạy chương trình Main.java hoặc chương trình được build sẵn: [LoginProgram.java]
 
