@@ -18,16 +18,14 @@ public abstract class BaseModel {
 		this.con = DatabaseConnector.getConnection();
 	}
 
-	// check một phần tử có trong bảng
-	public  Boolean isExists(Hashtable whereCondition) {
+	public Boolean isExists(Hashtable whereCondition) {
 		String sql = "SELECT * from " + this.table + " ";
-
 		if (whereCondition != null) {
 			Set<String> keys = whereCondition.keySet();
 			if (keys.size() != 0) {
 				sql = sql + " where ";
 				for (String key : keys) {
-					sql = sql + key + "=" + "'"+whereCondition.get(key) +"'"+ " and ";
+					sql = sql + key + "=" + "'" + whereCondition.get(key) + "'" + " and ";
 				}
 				sql = sql.substring(0, sql.length() - 5);
 			}
